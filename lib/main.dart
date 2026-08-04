@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:leloflutter/pages/first_page.dart';
-import 'package:leloflutter/pages/home_page.dart';
 
+// ici notre main est le point d'entrée de l'application Flutter.
+// Il appelle la fonction runApp() pour lancer l'application.
 void main() {
   runApp(const MyApp());
 }
@@ -11,6 +12,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // le materialApp est un widget qui fournit des fonctionnalités de base pour une application Flutter.
+    // les routages , les themes , la localisation et d'autres fonctionnalités.
+
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "leloFlutter",
