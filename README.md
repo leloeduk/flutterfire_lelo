@@ -77,6 +77,7 @@ flutter run
 
 - [Flutter](https://flutter.dev/) - Framework UI
 - [Dart](https://dart.dev/) - Langage de programmation
+- [leloEduk] (https://www.youtube.com/@LeloEduk) - chaine youtube
 
 ## 📄 Licence
 
