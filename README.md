@@ -32,6 +32,10 @@ flutter run
 | ---------------------------------------------- | -------------------------------------------- |
 | ![Première Page](assets/images/programmes.png) | ![Page d'accueil](assets/images/mentors.png) |
 
+## 🗺️ Plan de cours
+
+![Plan de cours](assets/images/plan_du_cours.png)
+
 ## 🧩 Widgets Utilisés (Explications en une ligne)
 
 ### `main.dart`
@@ -72,6 +76,19 @@ flutter run
 - **`FloatingActionButton`** — Bouton flottant pour action principale
 - **`IconButton`** — Icône qui réagit aux pressions
 - **`setState()`** — Déclenche la reconstruction de l'UI quand l'état change
+
+### `second_page.dart`
+
+- **`Stack`** — Empile les widgets enfants les uns sur les autres
+- **`Positioned`** — Positionne un enfant de manière absolue dans le Stack
+- **`Clip.none`** — Autorise les enfants du Stack à déborder au-delà des limites
+
+### `third_page.dart`
+
+- **`GridView.builder`** — Crée une grille défilante d'éléments à la demande
+- **`SliverGridDelegateWithFixedCrossAxisCount`** — Grille à nombre fixe de colonnes
+- **`Card`** — Carte Material Design avec élévation et coins arrondis
+- **`RoundedRectangleBorder`** — Forme de carte aux coins arrondis
 
 ## 🛠️ Construit avec
 
