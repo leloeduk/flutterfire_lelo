@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:leloflutter/pages/first_page.dart';
+import 'package:leloflutter/pages/second_page.dart';
+import 'package:leloflutter/pages/third_page.dart';
 
 // ici notre main est le point d'entrée de l'application Flutter.
 // Il appelle la fonction runApp() pour lancer l'application.
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "leloFlutter",
       theme: ThemeData(primarySwatch: Colors.blue, useMaterial3: true),
-      home: FirstPage(),
+      home: SecondPage(),
     );
   }
 }
