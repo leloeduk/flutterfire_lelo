@@ -73,6 +73,37 @@ flutter run
 - **`IconButton`** — Icône qui réagit aux pressions
 - **`setState()`** — Déclenche la reconstruction de l'UI quand l'état change
 
+### `fourth_page.dart`
+
+- **`CustomScrollView`** — ScrollView avancé permettant la combinaison de plusieurs slivers
+- **`SliverAppBar`** — Barre d'application spéciale qui défile et se replie avec le contenu
+- **`SliverToBoxAdapter`** — Adaptateur qui place un widget classique dans une liste de slivers
+- **`SliverList.builder`** — Liste défilante de slivers construite à la demande
+- **`Stack`** — Superposition de widgets les uns sur les autres
+- **`Positioned`** — Positionne un enfant du Stack de manière absolue (top, right, etc.)
+- **`SliverGrid.builder`** — Grille de slivers construite à la demande
+- **`SliverGridDelegateWithFixedCrossAxisCount`** — Grille avec un nombre fixe de colonnes
+- **`crossAxisCount`** — Nombre de colonnes dans la grille
+- **`crossAxisSpacing`** — Espacement horizontal entre les items de la grille
+- **`mainAxisSpacing`** — Espacement vertical entre les items de la grille
+- **`Icon(Icons.arrow_back)`** — Icône de retour pour naviguer en arrière
+- **`Navigator.pop()`** — Ferme la page courante et revient à la page précédente
+
+### `fiveth_page.dart`
+
+- **`ListView`** — Liste défilante de widgets enfants
+- **`shrinkWrap`** — Ajuste la taille de la liste interne à son contenu (ne prend pas tout l'écran)
+- **`NeverScrollableScrollPhysics`** — Empêche le défilement du widget (désactive le scroll)
+- **`ListView.builder`** — Construit efficacement des listes défilantes à la demande
+- **`itemCount`** — Nombre d'éléments à construire dans la liste
+- **`itemBuilder`** — Callback qui construit chaque élément de la liste
+- **`Padding`** — Ajoute de l'espace autour du widget enfant
+- **`EdgeInsets.all()`** — Espacement égal sur les quatre côtés
+
+### `six_page.dart`
+
+- **`Placeholder`** — Espace réservé grisé illustrant où un widget sera placé
+
 ## 🛠️ Construit avec
 
 - [Flutter](https://flutter.dev/) - Framework UI
